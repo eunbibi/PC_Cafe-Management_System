@@ -46,22 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GoodsAdd.cs">
+    <Compile Include="Goods\GoodsAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GoodsAdd.Designer.cs">
+    <Compile Include="Goods\GoodsAdd.Designer.cs">
       <DependentUpon>GoodsAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="GoodsSell.cs">
+    <Compile Include="Goods\GoodsSell.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GoodsSell.Designer.cs">
+    <Compile Include="Goods\GoodsSell.Designer.cs">
       <DependentUpon>GoodsSell.cs</DependentUpon>
     </Compile>
-    <Compile Include="GoodsSellAdd.cs">
+    <Compile Include="Goods\GoodsSellAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GoodsSellAdd.Designer.cs">
+    <Compile Include="Goods\GoodsSellAdd.Designer.cs">
       <DependentUpon>GoodsSellAdd.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
@@ -70,10 +70,10 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MasterCode.cs">
+    <Compile Include="Admin\MasterCode.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MasterCode.Designer.cs">
+    <Compile Include="Admin\MasterCode.Designer.cs">
       <DependentUpon>MasterCode.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
@@ -82,22 +82,22 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="MasterMgr.cs">
+    <Compile Include="Admin\MasterMgr.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MasterMgr.Designer.cs">
+    <Compile Include="Admin\MasterMgr.Designer.cs">
       <DependentUpon>MasterMgr.cs</DependentUpon>
     </Compile>
-    <Compile Include="MemberAdd.cs">
+    <Compile Include="Members\MemberAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MemberAdd.Designer.cs">
+    <Compile Include="Members\MemberAdd.Designer.cs">
       <DependentUpon>MemberAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="Members.cs">
+    <Compile Include="Members\Members.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Members.Designer.cs">
+    <Compile Include="Members\Members.Designer.cs">
       <DependentUpon>Members.cs</DependentUpon>
     </Compile>
     <Compile Include="PCset.cs">
@@ -112,39 +112,39 @@
     <Compile Include="PcStart.Designer.cs">
       <DependentUpon>PcStart.cs</DependentUpon>
     </Compile>
-    <Compile Include="Price.cs">
+    <Compile Include="Members\Price.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Price.Designer.cs">
+    <Compile Include="Members\Price.Designer.cs">
       <DependentUpon>Price.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GoodsMgr.cs">
+    <Compile Include="Goods\GoodsMgr.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GoodsMgr.Designer.cs">
+    <Compile Include="Goods\GoodsMgr.Designer.cs">
       <DependentUpon>GoodsMgr.cs</DependentUpon>
     </Compile>
-    <Compile Include="MonAccounts.cs">
+    <Compile Include="Admin\MonAccounts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MonAccounts.Designer.cs">
+    <Compile Include="Admin\MonAccounts.Designer.cs">
       <DependentUpon>MonAccounts.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserInfo.cs">
+    <Compile Include="Members\UserInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserInfo.Designer.cs">
+    <Compile Include="Members\UserInfo.Designer.cs">
       <DependentUpon>UserInfo.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GoodsAdd.resx">
+    <EmbeddedResource Include="Goods\GoodsAdd.resx">
       <DependentUpon>GoodsAdd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GoodsSell.resx">
+    <EmbeddedResource Include="Goods\GoodsSell.resx">
       <DependentUpon>GoodsSell.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GoodsSellAdd.resx">
+    <EmbeddedResource Include="Goods\GoodsSellAdd.resx">
       <DependentUpon>GoodsSellAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
@@ -153,16 +153,16 @@
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MasterCode.resx">
+    <EmbeddedResource Include="Admin\MasterCode.resx">
       <DependentUpon>MasterCode.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MasterMgr.resx">
+    <EmbeddedResource Include="Admin\MasterMgr.resx">
       <DependentUpon>MasterMgr.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MemberAdd.resx">
+    <EmbeddedResource Include="Members\MemberAdd.resx">
       <DependentUpon>MemberAdd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Members.resx">
+    <EmbeddedResource Include="Members\Members.resx">
       <DependentUpon>Members.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PCset.resx">
@@ -171,7 +171,7 @@
     <EmbeddedResource Include="PcStart.resx">
       <DependentUpon>PcStart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Price.resx">
+    <EmbeddedResource Include="Members\Price.resx">
       <DependentUpon>Price.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -184,13 +184,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="GoodsMgr.resx">
+    <EmbeddedResource Include="Goods\GoodsMgr.resx">
       <DependentUpon>GoodsMgr.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MonAccounts.resx">
+    <EmbeddedResource Include="Admin\MonAccounts.resx">
       <DependentUpon>MonAccounts.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserInfo.resx">
+    <EmbeddedResource Include="Members\UserInfo.resx">
       <DependentUpon>UserInfo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
@@ -210,9 +210,6 @@
       <Project>{7036B10C-85C9-4D64-A7C3-B2F490CB7A7E}</Project>
       <Name>DB</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\noname01.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
